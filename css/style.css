@@ -1,0 +1,38 @@
+header, nav, aside, section, footer {
+    border: 1px solid grey;
+    margin: 5px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    list-style-type: none;
+
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 120px;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: #3432ff;
+    display: block;
+}
+nav a:hover{
+    background-color: beige ;
+}
+section{
+    padding: 10px;
+    margin-left: 160px;
+    min-height: 500px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
