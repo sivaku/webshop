@@ -17,7 +17,8 @@
 
 <body>
 <?php
-$navi = array("Home", "Products", "Cart", "Contact",);
+$navi = array("Home", "Products", "Cart", "Contact");
+$links = array("Link1","Link2","Link3","Link4");
 ?>
 
 <header>
@@ -26,12 +27,14 @@ $navi = array("Home", "Products", "Cart", "Contact",);
 <div class="clearfix">
     <nav>
         <ul>
-            <li><a href="#"><?php foreach ($navi as $value) {echo "<li>$value</li>";}?></a></li>
+            <li><a href="link1">
+                    <?php foreach ($navi as $value_nav) {echo "<li>$value_nav</li>";}?></a></li>
         </ul>
     </nav>
 
     <section>Categories
         <article>Autos</article>
+        kiru is gay
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
         clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
